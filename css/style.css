@@ -1,0 +1,91 @@
+body {
+  background: #222;
+  font-size: 90px;
+}
+
+.flag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flag-usa {
+  width: 400px;
+  height: 259px;
+  background: #eee;
+  margin: .5em;
+  flex: none;
+  position: relative;
+}
+
+.flag-usa {
+  box-shadow: 0 19px #E42217 inset,
+              0 39px white inset,
+              0 59px #E42217 inset,
+              0 79px white inset,
+              0 99px #E42217 inset,
+              0 119px white inset,
+              0 139px #E42217 inset,
+              0 159px white inset,
+              0 179px #E42217 inset,
+              0 199px white inset,
+              0 219px #E42217 inset,
+              0 239px white inset,
+              0 259px #E42217 inset;
+}
+
+.blue-space {
+    top: 0;
+    left: 0;
+    content: "";
+    position: absolute;
+    background:  #151B8D;
+    width: 180px;
+    height: 139px;
+}
+.star ul li {
+  content: url(http://www.clker.com/cliparts/T/y/k/o/D/E/white-star-md.png);
+  float: left;
+  width: 15px;
+  height: 15px;
+}
+
+ul  {
+  list-style: none;
+  padding: 0;
+}
+
+ul.first-line {
+  margin: 1px 0 0 3px;
+}
+ul.first-line li {
+  padding: 0 6.8px;
+}
+ul.second-line {
+  margin: 0px 0 0 17px;
+}
+ul.second-line li {
+  padding: 0 7px;
+}
+
+
+
+
+
+
+/*.star ul  {
+  list-style: none;
+  padding: 0;
+  margin: 0px 0 0 4px;
+}
+.star ul li {
+  content: url(img/white-star.png);
+  float: left;
+  width: 15px;
+  height: 15px;
+  padding: 1px 2px;
+}
+.star {
+  position: absolute;
+  font-size: .15em;
+  color: #fff;
+}*/
